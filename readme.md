@@ -1,25 +1,27 @@
-# ChatBot Script
+# 🚀 Chatbot Agent – Embed AI Chatbot on Any Website with a Simple Script Tag
 
-A simple chatbot implementation with CDN support.
+Chatbot Agent is a lightweight, customizable chatbot that can be **easily embedded** into any website using just a **script tag**. No complicated setup—simply **copy, paste, and start chatting!**
 
-## Description
-This project provides a basic chatbot script that can be easily integrated into web applications using CDN delivery.
+---
 
-## Features
-- Lightweight implementation
-- CDN-ready
-- Easy to integrate
-- Customizable responses
+## 🌟 Features
 
-## Installation
-Include the script in your HTML file:
+✅ **Easy to Integrate** – Just add a `<script>` tag to your website.  
+✅ **Customizable** – Supports dynamic chatbot IDs, API keys, and base URLs.  
+✅ **Lightweight & Fast** – Built with **pure JavaScript, HTML, and CSS** (No React/Framework required).  
+✅ **Secure API Communication** – Uses **API keys and authorization headers** for secure requests.  
+✅ **Automatic UI Injection** – Dynamically loads chatbot UI on any website.
+
+---
+
+## 📌 How to Use?
+
+1️⃣ **Copy & Paste** the script tag into your website:
+
 ```html
-<script src="path-to-cdn/chatbot-script.js"></script>
-```
-## Configuration
-Create a `config.js` file with your base URL:
-```javascript
-const config = {
-    BASEURL: 'https://your-api-endpoint.com'
-};
+<script
+  src="https://your-host.com/chatbot.js"
+  id="your-chatbot-id"
+  api_key="your-api-key"
+></script>
 ```
