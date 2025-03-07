@@ -1,4 +1,3 @@
-// import BASE_URL from "./config";
 const BASE_URL="https://fast-api-chatbot-backend-2.onrender.com/api"
 
 (() => {
