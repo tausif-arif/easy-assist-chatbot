@@ -1,4 +1,4 @@
-const BASE_URL="https://fast-api-chatbot-backend-2.onrender.com/api"
+const BASE_URL="https://fast-api-chatbot-backend-2.onrender.com/api/chat"
 
 (() => {
     // Get the script tag that loaded this file
