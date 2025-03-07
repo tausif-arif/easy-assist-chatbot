@@ -13,7 +13,7 @@ import BASE_URL from "./config";
         return;
     }
 
-   
+
     const chatbotWidget = document.createElement("div");
     chatbotWidget.id = "chatbot-widget";
 
@@ -104,13 +104,17 @@ import BASE_URL from "./config";
         const typingIndicator = addMessage("", true, true);
 
         try {
-            const response = await fetch(`${BASE_URL}?query=${encodeURIComponent(userMessage)}&smart_agent_id=${chatbotId}&api_key=${apiKey}`, {
-                method: "GET",
+            const response = await fetch(`${BASE_URL}`, {
+                method: "POST",
                 headers: {
                     "Content-Type": "application/json"
-                }
+                },
+                body: JSON.stringify({
+                    query: userMessage,
+                    smart_agent_id: chatbotId,
+                    api_key: apiKey
+                })
             });
-
             const data = await response.json();
             typingIndicator.remove();
             addMessage(data.bot, true);
