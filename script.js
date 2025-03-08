@@ -18,7 +18,7 @@
     // Load chatbot styles dynamically
     const styles = document.createElement("link");
     styles.rel = "stylesheet";
-    styles.href = "/index.css";
+    styles.href = "https://easy-assist-chatbot.vercel.app/index.css";
 
     document.addEventListener('DOMContentLoaded', () => {
         document.head.appendChild(styles);
