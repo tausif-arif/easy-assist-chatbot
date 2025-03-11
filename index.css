@@ -5,7 +5,7 @@
     right: 20px;
     width: 400px;
     height: 550px;
-    background: rgba(20, 20, 20, 0.9); /* Dark semi-transparent */
+    background:  linear-gradient(135deg, #6c0404, #333); /* Dark semi-transparent */
     backdrop-filter: blur(10px);
     border-radius: 20px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
@@ -198,5 +198,5 @@
     transition: background-color 0.3s ease;
   }
   #chatbot-input button:hover {
-    background: linear-gradient(135deg, #555, #333);
+    background: linear-gradient(135deg, #f91010, #333);
   }

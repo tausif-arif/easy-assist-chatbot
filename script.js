@@ -18,7 +18,7 @@
     // Load chatbot styles dynamically
     const styles = document.createElement("link");
     styles.rel = "stylesheet";
-    styles.href = "https://easy-assist-chatbot.vercel.app/index.css";
+    styles.href = "index.css";
 
     document.addEventListener('DOMContentLoaded', () => {
         document.head.appendChild(styles);
@@ -95,7 +95,6 @@
     const sendMessage = async () => {
         const userMessage = textarea.value.trim();
         if (!userMessage) return;
-
         addMessage(userMessage, false);
         textarea.value = "";
 
